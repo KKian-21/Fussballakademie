@@ -1,0 +1,83 @@
+html,
+body,
+header,
+#intro{
+    height: 100%;
+}
+
+html{
+    background-color: #19191b;
+    overflow-x: hidden;
+}
+body{
+    color: white;
+}
+body::-webkit-scrollbar {
+    width: 0.4rem;
+  }
+  body::-webkit-scrollbar-track {
+    background: #1e1e24;
+  }
+  body::-webkit-scrollbar-thumb {
+    background: #75e7ba;
+  }
+
+#intro{
+    background: url(schuhe1.0.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position: 58% 0%;
+}
+
+
+#fullPageContent{
+    top: 30%;
+    position: absolute;
+}
+
+#ContentFullPage{
+    border-bottom: 1px solid white;
+   
+}
+#ContentIcon{
+    border-bottom: 1px solid black;
+}
+#images{
+    border-bottom: 1px solid white;
+}
+#carousel{
+    border-bottom: 1px solid black;
+}
+#BoxContent{
+    border: 5px solid white;
+}
+#ContentBox{
+     border-bottom: 1px solid black;
+}
+h2,h4{
+    color:  #75e7ba;
+}
+#heading{
+    font-weight: 400;
+    color:  #75e7ba;
+}
+#startButton{
+    background-color: #75e7ba;
+}
+
+#startButton:hover {
+    background-color: #4a9174;
+  }
+
+
+#content1{
+    text-align: center;
+}
+
+@media only screen and (min-width: 300px) {
+    #heading { 
+        font-size: 250%;  
+    }
+}
