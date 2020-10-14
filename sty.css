@@ -6,11 +6,11 @@ header,
 }
 
 html{
-    background-color: #19191b;
+    background-color: #000000;
     overflow-x: hidden;
 }
 body{
-    color: white;
+    /* color: white; */
 }
 body::-webkit-scrollbar {
     width: 0.4rem;
@@ -29,6 +29,9 @@ body::-webkit-scrollbar {
     -o-background-size:cover;
     background-size:cover;
     background-position: 58% 0%;
+}
+#navBar{
+    font-size: x-large;
 }
 
 
@@ -77,6 +80,7 @@ h2,h4{
 }
 
 
+
 #content1{
     text-align: center;
 }
@@ -93,10 +97,22 @@ h2,h4{
     }
 } 
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 767px) {
     #heading { 
         font-size: 400%;  
     }
+    /* Darunter Transparenz möglich wenn Scroll Effekte möglich
+    sonst kein passender Layer im Hintergrund der Navigation  */
+    #navBar{
+        background-color: #000000 !important;
+    }
+    #navbarCollapse{
+        display: flex;
+         flex-direction: row-reverse;
+    }
+
+    
+    
 } 
 
 @media only screen and (min-width: 1200px) {
