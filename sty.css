@@ -79,10 +79,12 @@ h2,h4{
     font-size: 100%;
 }
 
-
-
 #content1{
     text-align: center;
+}
+
+#contentKurse{
+    margin-top: 10rem;
 }
 
 @media only screen and (min-width: 300px) {
