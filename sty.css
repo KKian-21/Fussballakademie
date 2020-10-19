@@ -10,7 +10,7 @@ html{
     overflow-x: hidden;
 }
 body{
-    /* color: white; */
+    background-color: black;
 }
 body::-webkit-scrollbar {
     width: 0.4rem;
@@ -83,13 +83,44 @@ h2,h4{
     text-align: center;
 }
 
+/* Kurse */
+
 #contentKurse{
-    margin-top: 10rem;
+    margin-top: 10vh;
 }
+
+#headlineKurse{
+    text-align: center;
+    font-size: xxx-large;
+}
+
+#textKurs{
+    text-align: center;
+}
+
+#sectionKurse{
+    border-bottom: 1px solid white;
+
+}
+
+#angebotKurse{
+    text-align: center;
+}
+
+/* Über Uns 
+ */
+#pictureUber{
+    padding: 10%;
+}
+
+
 
 @media only screen and (min-width: 300px) {
     #heading { 
         font-size: 250%;  
+    }
+    #navBar{
+        background-color: #000000 !important;
     }
 } 
 
@@ -129,4 +160,25 @@ h2,h4{
     }
 } 
 
+
+@media only screen and (min-width: 2000px){
+    #footerUber{
+        top: 100%;
+        position: sticky;
+    }
+}
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
 
