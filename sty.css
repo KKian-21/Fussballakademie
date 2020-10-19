@@ -112,8 +112,13 @@ h2,h4{
 #pictureUber{
     padding: 10%;
 }
-
-
+/* 
+@media only screen and (min-width: 200px) {
+   #navBar{
+       position: fixed;
+       top: auto;
+   }
+}  */
 
 @media only screen and (min-width: 300px) {
     #heading { 
@@ -137,11 +142,14 @@ h2,h4{
     /* Darunter Transparenz möglich wenn Scroll Effekte möglich
     sonst kein passender Layer im Hintergrund der Navigation  */
     #navBar{
-        background-color: #000000 !important;
+        /* background-color: transparent !important; */
+        background-color: black !important;
+    
     }
     #navbarCollapse{
         display: flex;
          flex-direction: row-reverse;
+
     }
 
     
