@@ -6,11 +6,11 @@ header,
 }
 
 html{
-    background-color: #19191b;
+    background-color: #000000;
     overflow-x: hidden;
 }
 body{
-    color: white;
+    background-color: black;
 }
 body::-webkit-scrollbar {
     width: 0.4rem;
@@ -29,6 +29,9 @@ body::-webkit-scrollbar {
     -o-background-size:cover;
     background-size:cover;
     background-position: 58% 0%;
+}
+#navBar{
+    font-size: x-large;
 }
 
 
@@ -71,14 +74,53 @@ h2,h4{
     background-color: #4a9174;
   }
 
+#navSites{
+    color:  #f8f8f8;
+    font-size: 100%;
+}
 
 #content1{
     text-align: center;
 }
 
+/* Kurse */
+
+#contentKurse{
+    margin-top: 10vh;
+}
+
+#headlineKurse{
+    text-align: center;
+    font-size: xxx-large;
+}
+
+#textKurs{
+    text-align: center;
+}
+
+#sectionKurse{
+    border-bottom: 1px solid white;
+
+}
+
+#angebotKurse{
+    text-align: center;
+}
+
+/* Über Uns 
+ */
+#pictureUber{
+    padding: 10%;
+}
+
+
+
 @media only screen and (min-width: 300px) {
     #heading { 
         font-size: 250%;  
+    }
+    #navBar{
+        background-color: #000000 !important;
     }
 } 
 
@@ -88,10 +130,22 @@ h2,h4{
     }
 } 
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 767px) {
     #heading { 
         font-size: 400%;  
     }
+    /* Darunter Transparenz möglich wenn Scroll Effekte möglich
+    sonst kein passender Layer im Hintergrund der Navigation  */
+    #navBar{
+        background-color: #000000 !important;
+    }
+    #navbarCollapse{
+        display: flex;
+         flex-direction: row-reverse;
+    }
+
+    
+    
 } 
 
 @media only screen and (min-width: 1200px) {
@@ -106,4 +160,25 @@ h2,h4{
     }
 } 
 
+
+@media only screen and (min-width: 2000px){
+    #footerUber{
+        top: 100%;
+        position: sticky;
+    }
+}
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
 
