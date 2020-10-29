@@ -30,7 +30,7 @@
                 aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" >
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse p-1" id="navbarCollapse">
+            <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav " id="navSites">
                     <li class="nav-item pr-3">
                         <a class="nav-link text-light" href="index.html">Home <span class="sr-only">(current)</span></a>
@@ -51,57 +51,61 @@
         </nav>
         <main class="contentMain">
             <div class="container mb-2" id="contentKurse">
-                <section id="best-features">
-                    <div class="row ">
-                        <div class="col-md-12 px-5">
-                            <h2 class="mb-3 font-bold" id="headlineKurse">Kurse</h2>
-    
-                            <p class=" mb-2 text-white" id="textKurs">Wir die Fussballakademie verfügen über ein breites Angebot
-                                an Sporkursen, welche sie hier besichtigen können. Bei Fragen können
-                                Sie mich gerne kontaktieren. Im Moment bieten wir jeden Freitag das Fördertraining an,
-                                welches für Kinder im Alter von 10-14 Jahren ausgelegt ist. Diese müssen sich aber vorerst
-                                über ein Sichtungstraining qualifizieren. Dieses Training findet zentral an einem Bestimmten 
-                                Termin statt.</p>
-                           
+                <div id="kurseContent">
+                    <section id="best-features">
+                        <div class="row ">
+                            <div class="col-md-12 px-5">
+                                <h2 class="mb-3 font-bold" id="headlineKurse">Kurse</h2>
+        
+                                <p class=" mb-2 text-white" id="textKurs">Wir die Fussballakademie verfügen über ein breites Angebot
+                                    an Sporkursen, welche sie hier besichtigen können. Bei Fragen können
+                                    Sie mich gerne kontaktieren. Im Moment bieten wir jeden Freitag das Fördertraining an,
+                                    welches für Kinder im Alter von 10-14 Jahren ausgelegt ist. Diese müssen sich aber vorerst
+                                    über ein Sichtungstraining qualifizieren. Dieses Training findet zentral an einem Bestimmten 
+                                    Termin statt.</p>
+                            
+                            </div>
                         </div>
-                    </div>
-                </section>
+                    </section>
 
 
-                <section class="container" id="sectionKurse">
-                    <div class="row mb-5">
-                        <div class="p-3">
-                            <img src="schuhe_N1.jpg" class="img-fluid p-5" alt="">
-        
+                    <section class="container" id="sectionKurse">
+                        <div class="row mb-5">
+                            <div class="p-3">
+                                <img src="schuhe_N1.jpg" class="img-fluid p-5" alt="">
+            
+                            </div>
+            
                         </div>
-        
-                    </div>
-        
-                </section>
+            
+                    </section>
+                </div>
 
 
                 <section class="mb-5">
                     <div class="row p-3 mt-5">
-                        <div class="col-lg-3 col-md-12 mb-5 mt-5" id="angebotKurse">
-                            <img src="bild1.jpg" class="img-fluid">
-                            <h4 class="my-4 mb-1">Fördertraining</h4>
-                            <p class="text-white">This is a good Experience for me.</p>
-                        </div>
-                        <div class="col-lg-3 col-md-12 mb-5 mt-5" id="angebotKurse">
-                            <img src="bild2.jpg" class="img-fluid">
-                            <h4 class="my-4 mb-1">Trainerschulungen</h4>
-                            <p class="text-white">This is a good Experience for me..</p>
-                        </div>
-                        <div class="col-lg-3 col-md-12 mb-3 mt-5" id="angebotKurse">
-                            <img src="bild3.jpg" class="img-fluid">
-                            <h4 class="my-4 mb-1">Einzeltraining</h4>
-                            <p class="text-white">This is a good Experience for me.</p>
-                        </div>
-                        <div class="col-lg-3 col-md-12 mb-3 mt-5" id="angebotKurse">
-                            <img src="bild3.jpg" class="img-fluid">
-                            <h4 class="my-4 mb-1">Einzeltraining</h4>
-                            <p class="text-white">This is a good Experience for me.</p>
-                        </div>
+                        
+                            <div class="col-lg-6 col-md-12 mb-5 mt-5" id="angebotKurse">
+                                <img src="bild1.jpg" class="img-fluid kursPic">
+                                <h4 class="my-4 mb-1">Fördertraining</h4>
+                                <p class="text-white">This is a good Experience for me.</p>
+                            </div>
+                            <div class="col-lg-6 col-md-12 mb-5 mt-5" id="angebotKurse">
+                                <img src="bild2.jpg" class="img-fluid kursPic">
+                                <h4 class="my-4 mb-1">Trainerschulungen</h4>
+                                <p class="text-white">This is a good Experience for me..</p>
+                            </div>
+                            <div class="col-lg-6 col-md-12 mb-3 mt-5" id="angebotKurse">
+                                <img src="bild3.jpg" class="img-fluid kursPic">
+                                <h4 class="my-4 mb-1">Einzeltraining</h4>
+                                <p class="text-white">This is a good Experience for me.</p>
+                            </div>
+                            <div class="col-lg-6 col-md-12 mb-3 mt-5" id="angebotKurse">
+                                <img src="bild3.jpg" class="img-fluid kursPic">
+                                <h4 class="my-4 mb-1">Einzeltraining</h4>
+                                <p class="text-white">This is a good Experience for me.</p>
+                            </div>
+                      
                     </div>
                 </section>
 
@@ -141,7 +145,7 @@
                     <div class="row">
                     <div class="col-12 col-md">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24" focusable="false"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
-                        <small class="d-block mb-3 text-muted">&copy; 2017-2020</small>
+                        <small class="d-block mb-3 text-muted">&copy; 2020</small>
                     </div>
                     <div class="col-6 col-md">
                         <h5>Features</h5>

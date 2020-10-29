@@ -23,7 +23,7 @@ body::-webkit-scrollbar {
   }
 
 #intro{
-    background: url(schuhe1.0.jpg) no-repeat center center fixed;
+    background: url(schuhe1.0.jpg) no-repeat center ;
     -webkit-background-size: cover;
     -moz-background-size:cover;
     -o-background-size:cover;
@@ -33,7 +33,11 @@ body::-webkit-scrollbar {
 #navBar{
     font-size: x-large;
 }
-
+.navbar-toggler{
+    background-color: #000000 !important;
+    border-radius: 5%;
+    border: 0px;
+}
 
 #fullPageContent{
     top: 30%;
@@ -83,6 +87,14 @@ h2,h4{
     text-align: center;
 }
 
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
 /* Kurse */
 
 #contentKurse{
@@ -112,8 +124,13 @@ h2,h4{
 #pictureUber{
     padding: 10%;
 }
-
-
+/* 
+@media only screen and (min-width: 200px) {
+   #navBar{
+       position: fixed;
+       top: auto;
+   }
+}  */
 
 @media only screen and (min-width: 300px) {
     #heading { 
@@ -121,7 +138,9 @@ h2,h4{
     }
     #navBar{
         background-color: #000000 !important;
+        border-bottom: 1px #f8f8f8 solid !important;
     }
+
 } 
 
 @media only screen and (min-width: 500px) {
@@ -137,17 +156,29 @@ h2,h4{
     /* Darunter Transparenz möglich wenn Scroll Effekte möglich
     sonst kein passender Layer im Hintergrund der Navigation  */
     #navBar{
-        background-color: #000000 !important;
+        /* background-color: transparent !important; */
+        background-color: black !important;
+        border-bottom: 0px #f8f8f8 solid !important;
+    
     }
     #navbarCollapse{
         display: flex;
          flex-direction: row-reverse;
     }
-
-    
-    
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+    .uberPic{
+        margin-top: 3rem;
+    }
 } 
+@media only screen and (min-width: 1000px){
+    #footerUber{
+        top: 100%;
+        position: sticky;
+    }
 
+}
 @media only screen and (min-width: 1200px) {
     #heading { 
         font-size: 520%;  
@@ -158,6 +189,10 @@ h2,h4{
     #slogan {
         font-size: xx-large;
     }
+    .uberPic{
+        margin-top: 0rem;
+    }
+   
 } 
 
 
@@ -166,19 +201,37 @@ h2,h4{
         top: 100%;
         position: sticky;
     }
-}
-.bd-placeholder-img {
-    font-size: 1.125rem;
-    text-anchor: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-
-@media (min-width: 768px) {
-    .bd-placeholder-img-lg {
-        font-size: 3.5rem;
+    #intro{
+        background-position:  55% 67%;
     }
 }
 
+/* Reiteruntersstriche  */
+
+li:hover{
+    text-decoration: underline white;  
+}
+.nav-link:hover{
+    color: #75e7ba !important;
+}
+
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-4em);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+#fullPageContent,
+#kurseContent,
+.uberContent{
+  animation: fadeIn 2s forwards;
+}
+
+
+  
