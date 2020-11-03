@@ -98,7 +98,7 @@ h2,h4{
 /* Kurse */
 
 #contentKurse{
-    margin-top: 10vh;
+    margin-top: 12vh;
 }
 
 #headlineKurse{
@@ -132,15 +132,16 @@ h2,h4{
    }
 }  */
 
+
+    #navBar{
+        background-color: #000000 !important;
+        box-shadow: 2px 2px 3px #f8f8f8;
+    }
+ 
 @media only screen and (min-width: 300px) {
     #heading { 
         font-size: 250%;  
     }
-    #navBar{
-        background-color: #000000 !important;
-        border-bottom: 1px #f8f8f8 solid !important;
-    }
-
 } 
 
 @media only screen and (min-width: 500px) {
@@ -209,10 +210,11 @@ h2,h4{
 /* Reiteruntersstriche  */
 
 li:hover{
-    text-decoration: underline white;  
+    text-decoration: underline white;
+    color: teal!important;  
 }
-.nav-link:hover{
-    color: #75e7ba !important;
+#navbarCollapse:hover{
+    
 }
 
 
