@@ -38,6 +38,17 @@ body::-webkit-scrollbar {
     border-radius: 5%;
     border: 0px;
 }
+.nav-link{
+    color: white !important;
+}
+.nav-link:hover{
+    text-decoration: underline;
+    padding-bottom: 2px;
+}
+.nav-selected{
+ 
+    color: #75e7ba !important;
+}
 
 #fullPageContent{
     top: 30%;
@@ -76,6 +87,8 @@ h2,h4{
 
 #startButton:hover {
     background-color: #4a9174;
+    color: white;
+    font-weight: 500;
   }
 
 #navSites{
@@ -208,15 +221,6 @@ h2,h4{
 }
 
 /* Reiteruntersstriche  */
-
-li:hover{
-    text-decoration: underline white;
-    color: teal!important;  
-}
-#navbarCollapse:hover{
-    
-}
-
 
 @keyframes fadeIn {
     from {
