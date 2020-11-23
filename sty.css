@@ -46,8 +46,23 @@ body::-webkit-scrollbar {
     padding-bottom: 2px;
 }
 .nav-selected{
- 
     color: #75e7ba !important;
+}
+.scrollDownIconBox{
+    position: absolute;
+    top: 92.5%;
+    justify-content: center;
+    left: 50%;
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+.scrollDownIconBox:hover{
+    background-image: linear-gradient(120deg, #f6d365, #75e7ba) ;
+    transition: all 3s ease;
+}
+.scrollDownIcon{
+    color: #98a09d;
+    position: relative;
 }
 
 #fullPageContent{
@@ -125,7 +140,7 @@ h2,h4{
 
 #sectionKurse{
     border-bottom: 1px solid white;
-
+ 
 }
 
 #angebotKurse{
@@ -206,7 +221,12 @@ h2,h4{
     .uberPic{
         margin-top: 0rem;
     }
-   
+    .sectionImgBig{
+        padding: 1.5rem 10rem 3rem 10rem !important;
+    }  
+    #angebotKurse{
+        padding: 2rem 5rem 0rem 5rem !important;
+    }
 } 
 
 
