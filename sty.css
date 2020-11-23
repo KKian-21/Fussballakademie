@@ -41,27 +41,19 @@ body::-webkit-scrollbar {
 .nav-link{
     color: white !important;
 }
-.nav-link:hover{
-    text-decoration: underline;
-    padding-bottom: 2px;
-}
 .nav-selected{
     color: #75e7ba !important;
 }
 .scrollDownIconBox{
     position: absolute;
-    top: 92.5%;
+    top: 91%;
     justify-content: center;
     left: 50%;
     padding: 0.5rem;
-    border-radius: 50%;
-}
-.scrollDownIconBox:hover{
-    background-image: linear-gradient(120deg, #f6d365, #75e7ba) ;
-    transition: all 3s ease;
+    border-radius: 25%;
 }
 .scrollDownIcon{
-    color: #98a09d;
+    color: #bdc5c2;
     position: relative;
 }
 
@@ -83,10 +75,10 @@ body::-webkit-scrollbar {
 #carousel{
     border-bottom: 1px solid black;
 }
-#BoxContent{
+#boxContent{
     border: 5px solid white;
 }
-#ContentBox{
+#contentBox{
      border-bottom: 1px solid black;
 }
 h2,h4{
@@ -99,22 +91,13 @@ h2,h4{
 #startButton{
     background-color: #75e7ba;
 }
-
-#startButton:hover {
-    background-color: #4a9174;
-    color: white;
-    font-weight: 500;
-  }
-
 #navSites{
     color:  #f8f8f8;
     font-size: 100%;
 }
-
 #content1{
     text-align: center;
 }
-
 .bd-placeholder-img {
     font-size: 1.125rem;
     text-anchor: middle;
@@ -123,32 +106,30 @@ h2,h4{
     -ms-user-select: none;
     user-select: none;
 }
+.contentBestPictures{
+    overflow: hidden;
+}
 /* Kurse */
 
 #contentKurse{
     margin-top: 12vh;
 }
-
 #headlineKurse{
     text-align: center;
     font-size: xxx-large;
 }
-
 #textKurs{
     text-align: center;
 }
-
 #sectionKurse{
     border-bottom: 1px solid white;
  
 }
-
 #angebotKurse{
     text-align: center;
 }
 
-/* Über Uns 
- */
+/* Über Uns */
 #pictureUber{
     padding: 10%;
 }
@@ -219,18 +200,22 @@ h2,h4{
         font-size: xx-large;
     }
     .uberPic{
-        margin-top: 0rem;
+        margin-top: 1rem;
     }
     .sectionImgBig{
         padding: 1.5rem 10rem 3rem 10rem !important;
     }  
-    #angebotKurse{
+    .containerUberPic{
         padding: 2rem 5rem 0rem 5rem !important;
     }
+    .contentKursPic{
+        padding: 2rem 5rem 0rem 5rem !important;
+    }
+    
 } 
 
 
-@media only screen and (min-width: 2000px){
+@media only screen and (min-width: 1920px){
     #footerUber{
         top: 100%;
         position: sticky;
@@ -240,6 +225,7 @@ h2,h4{
     }
 }
 
+/* Animations */
 /* Reiteruntersstriche  */
 
 @keyframes fadeIn {
@@ -258,6 +244,79 @@ h2,h4{
 .uberContent{
   animation: fadeIn 2s forwards;
 }
+.nav-link:hover{
+    text-decoration: underline;
+    padding-bottom: 2px;
+}
+
+
+/* Content Animation */
+#ContentFullPage{
+    transition: 0.8s; 
+ }
+ #ContentFullPage:hover{
+    transform: scale(1.05);
+ }
+.bestIconCard{
+   transition: 0.4s; 
+}
+.bestIconCard:hover{
+   transform: scale(1.1);
+}
+.bestPictures{
+   transition: 0.4s; 
+}
+.bestPictures:hover{
+   transform: scale(1.1);
+}
+#boxContent{
+    transition: 0.4s;  
+}
+#boxContent:hover{
+    transform: scale(1.1);
+    box-shadow: rgb(224, 217, 217) 0px 3px 7px 0px;
+ }
+.sectionImgBig{
+    transition: 0.4s;  
+}
+.sectionImgBig:hover{
+    transform: scale(1.05);   
+ }
+#angebotKurse{
+    transition: 0.4s;  
+}
+#angebotKurse:hover{
+    transform: scale(1.15);   
+ }
+.uberPic{
+    transition: 0.4s;  
+}
+.uberPic:hover{
+    transform: scale(1.1);   
+ }
+#textKurs{
+    transition: 0.4s;  
+}
+#textKurs:hover{
+    transform: scale(1.1);   
+ }
+
+ 
+
+/* Scroll Down Animation */
+.scrollDownIconBox:hover{
+    background-image: linear-gradient(120deg, #f6d365, #75e7ba) ;
+    transition: all 1s ease;
+    border-radius: 50%;
+}
+
+/* Button Animation */
+#startButton:hover {
+    background-color: #4a9174;
+    color: white;
+    font-weight: 500;
+
+  }
 
 
   
