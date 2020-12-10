@@ -46,14 +46,15 @@ body::-webkit-scrollbar {
 }
 .scrollDownIconBox{
     position: absolute;
-    top: 91%;
+    top: 92%;
     justify-content: center;
     left: 50%;
     padding: 0.5rem;
     border-radius: 25%;
+    background-color: transparent;
 }
 .scrollDownIcon{
-    color: #bdc5c2;
+    color: #ffffff;
     position: relative;
 }
 
