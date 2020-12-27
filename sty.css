@@ -226,6 +226,20 @@ h2,h4{
     }
 }
 
+@media only screen and (min-width: 2220px){
+   
+    .row{
+        margin-top: 7% !important;
+    }
+    .containerUberPic{
+        padding: 2rem 3rem 0rem 3rem !important;
+        margin-left: 5rem;
+    }
+    
+   
+    
+}
+
 /* Animations */
 /* Reiteruntersstriche  */
 
@@ -252,42 +266,44 @@ h2,h4{
 
 
 /* Content Animation */
-#ContentFullPage{
+/* #ContentFullPage{
     transition: 0.8s; 
  }
  #ContentFullPage:hover{
     transform: scale(1.05);
- }
-.bestIconCard{
+ } */
+/* .bestIconCard{
    transition: 0.4s; 
 }
 .bestIconCard:hover{
    transform: scale(1.1);
-}
+} */
 .bestPictures{
    transition: 0.4s; 
 }
 .bestPictures:hover{
    transform: scale(1.1);
 }
-#boxContent{
+/* #boxContent{
     transition: 0.4s;  
 }
 #boxContent:hover{
     transform: scale(1.1);
     box-shadow: rgb(224, 217, 217) 0px 3px 7px 0px;
- }
+ } */
 .sectionImgBig{
     transition: 0.4s;  
 }
 .sectionImgBig:hover{
     transform: scale(1.05);   
+   
  }
 #angebotKurse{
     transition: 0.4s;  
 }
 #angebotKurse:hover{
     transform: scale(1.15);   
+    /* box-shadow: 0px 7px 8px 7px white ; */
  }
 .uberPic{
     transition: 0.4s;  
