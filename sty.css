@@ -111,7 +111,7 @@ h4 {
 }
 
 #startButton {
-    background-color: #75e7ba;
+    background-image: linear-gradient(120deg, #f6d365, #75e7ba);
 }
 
 #navSites {
