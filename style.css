@@ -33,6 +33,7 @@ body::-webkit-scrollbar-thumb {
     -o-background-size: cover;
     background-size: cover;
     background-position: 58% 0%;
+    /* opacity: 0.9; */
 }
 
 #navBar {
@@ -73,7 +74,6 @@ body::-webkit-scrollbar-thumb {
 #fullPageContent {
     top: 30%;
     position: absolute;
-
 }
 
 #ContentFullPage {
@@ -179,6 +179,25 @@ h4 {
 #navBar {
     background-color: #000000 !important;
     box-shadow: 2px 2px 3px #f8f8f8;
+}
+
+
+/* Preise */
+
+.preiseTitle {
+    text-align: center;
+    font-size: xxx-large;
+}
+
+.preiseContent {
+    margin-top: 12vh;
+}
+
+
+/* Impressum */
+
+.impressumTitle {
+    margin-top: 7rem;
 }
 
 
@@ -299,7 +318,8 @@ button.bg-dark:hover {
 
 #fullPageContent,
 #kurseContent,
-.uberContent {
+.uberContent,
+.preiseContent {
     animation: fadeIn 2s forwards;
 }
 
@@ -393,7 +413,11 @@ button.bg-dark:hover {
     background-color: #36bd90;
     color: white;
 }
-footer{
+
+footer {
     background-color: white;
 }
 
+.bg-linear {
+    background-image: linear-gradient(120deg, #f6d365, #75e7ba);
+}
