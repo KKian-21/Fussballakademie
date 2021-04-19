@@ -253,6 +253,10 @@ button.bg-dark:hover {
         top: 100%;
         position: sticky;
     }
+    #footerPreise {
+        top: 100%;
+        position: sticky;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -281,6 +285,10 @@ button.bg-dark:hover {
 
 @media only screen and (min-width: 1920px) {
     #footerUber {
+        top: 100%;
+        position: sticky;
+    }
+    #footerPreise {
         top: 100%;
         position: sticky;
     }
@@ -414,10 +422,20 @@ button.bg-dark:hover {
     color: white;
 }
 
-footer {
-    background-color: white;
+.bg-linear {
+    background-image: linear-gradient(280deg, #f6d365, #75e7ba);
 }
 
-.bg-linear {
-    background-image: linear-gradient(120deg, #f6d365, #75e7ba);
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    width: 30px;
+    height: 30px;
+}
+
+p.red::selection {
+    background: #ffb7b7;
+}
+
+p.red::-moz-selection {
+    background: #ffb7b7;
 }
