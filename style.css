@@ -54,6 +54,14 @@ body::-webkit-scrollbar-thumb {
     color: #75e7ba !important;
 }
 
+.logo {
+    height: 8em;
+    width: 8em;
+    position: absolute;
+    left: -100px;
+    top: -25px;
+}
+
 .scrollDownIconBox {
     position: absolute;
     top: 92%;
