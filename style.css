@@ -54,12 +54,31 @@ body::-webkit-scrollbar-thumb {
     color: #75e7ba !important;
 }
 
+.favicon {
+    height: 3em;
+    width: 3em;
+}
+
 .logo {
-    height: 8em;
-    width: 8em;
+    height: 7em;
+    width: 7em;
     position: absolute;
-    left: -100px;
-    top: -25px;
+    left: -34px;
+    top: -52px;
+}
+
+.logofooter {
+    position: absolute;
+    top: -10px;
+    left: 0;
+    /* float: right; */
+}
+
+.copyR {
+    position: absolute;
+    top: 40px;
+    left: 35px;
+    /* float: right; */
 }
 
 .scrollDownIconBox {
@@ -253,6 +272,11 @@ button.bg-dark:hover {
     }
     .scrollDownIconBox {
         left: 50%;
+    }
+    .logo {
+        height: 14em;
+        width: 14em;
+        top: 0px;
     }
 }
 
