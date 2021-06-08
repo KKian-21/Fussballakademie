@@ -69,16 +69,14 @@ body::-webkit-scrollbar-thumb {
 
 .logofooter {
     position: absolute;
-    top: -10px;
-    left: 0;
-    /* float: right; */
+    top: -140px;
+    left: 39px;
 }
 
 .copyR {
     position: absolute;
-    top: 40px;
-    left: 35px;
-    /* float: right; */
+    top: -105px;
+    left: 160px;
 }
 
 .scrollDownIconBox {
@@ -278,6 +276,18 @@ button.bg-dark:hover {
         width: 14em;
         top: 0px;
     }
+    .logoUberKurse {
+        top: -20px !important;
+        left: -88px !important;
+    }
+    .logofooter {
+        top: -10px;
+        left: -80px;
+    }
+    .copyR {
+        top: 30px;
+        left: 55px;
+    }
 }
 
 @media only screen and (min-width: 1000px) {
@@ -288,6 +298,14 @@ button.bg-dark:hover {
     #footerPreise {
         top: 100%;
         position: sticky;
+    }
+    .logofooter {
+        top: -25px;
+        left: -90px;
+    }
+    .copyR {
+        top: 30px;
+        left: 80px;
     }
 }
 
@@ -313,6 +331,14 @@ button.bg-dark:hover {
     .contentKursPic {
         padding: 2rem 5rem 0rem 5rem !important;
     }
+    .logofooter {
+        top: -53px;
+        left: -90px;
+    }
+    .copyR {
+        top: 30px;
+        left: 107px;
+    }
 }
 
 @media only screen and (min-width: 1920px) {
@@ -327,6 +353,11 @@ button.bg-dark:hover {
     #intro {
         background-position: 55% 67%;
     }
+    .logo {
+        height: 20em;
+        width: 20em;
+        top: 0px !important;
+    }
 }
 
 @media only screen and (min-width: 2220px) {
@@ -336,6 +367,10 @@ button.bg-dark:hover {
     .containerUberPic {
         padding: 2rem 3rem 0rem 3rem !important;
         margin-left: 5rem;
+    }
+    .logofooter {
+        top: -60px;
+        left: -105px;
     }
 }
 
