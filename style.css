@@ -401,7 +401,8 @@ button.bg-dark:hover {
 #fullPageContent,
 #kurseContent,
 .uberContent,
-.preiseContent {
+.preiseContent,
+.logo {
     animation: fadeIn 2s forwards;
 }
 
@@ -431,6 +432,11 @@ button.bg-dark:hover {
 
 .bestPictures {
     transition: 0.4s;
+}
+
+#heading:hover {
+    transition: 0.8s;
+    transform: scale(1.07);
 }
 
 .bestPictures:hover {
