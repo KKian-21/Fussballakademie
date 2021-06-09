@@ -222,7 +222,11 @@ h4 {
 /* Impressum */
 
 .impressumTitle {
-    margin-top: 7rem;
+    margin-top: 10rem;
+}
+
+.contentKoIm {
+    margin-left: 0rem;
 }
 
 
@@ -287,6 +291,9 @@ button.bg-dark:hover {
     .copyR {
         top: 30px;
         left: 55px;
+    }
+    .contentKoIm {
+        margin-left: 15rem;
     }
 }
 
@@ -518,4 +525,20 @@ p.red::selection {
 
 p.red::-moz-selection {
     background: #ffb7b7;
+}
+
+.mt-6 {
+    margin-top: 6rem !important;
+}
+
+.ml-6 {
+    margin-left: 6rem !important;
+}
+
+.mr-6 {
+    margin-right: 6rem !important;
+}
+
+.mb-6 {
+    margin-bottom: 6rem !important;
 }
