@@ -218,6 +218,11 @@ h4 {
     margin-top: 12vh;
 }
 
+#footerPreise {
+    top: 100%;
+    position: sticky;
+}
+
 
 /* Impressum */
 
