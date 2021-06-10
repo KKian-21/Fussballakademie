@@ -55,7 +55,7 @@ body::-webkit-scrollbar-thumb {
 
 .scrollDownIconBox {
     position: absolute;
-    top: 92%;
+    top: 90%;
     justify-content: center;
     left: 45%;
     padding: 0.5rem;
