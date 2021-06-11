@@ -219,6 +219,7 @@ h4 {
 }
 
 #footerPreise {
+    /* margin-top: 40rem; */
     top: 100%;
     position: sticky;
 }
@@ -308,6 +309,7 @@ button.bg-dark:hover {
         position: sticky;
     }
     #footerPreise {
+        /* margin-top: 0rem; */
         top: 100%;
         position: sticky;
     }
