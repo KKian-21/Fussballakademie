@@ -137,6 +137,8 @@ h4 {
 
 #startButton {
     background-image: linear-gradient(120deg, #f6d365, #75e7ba);
+    -webkit-appearance: none;
+    -moz-appearance: none;
 }
 
 #navSites {
