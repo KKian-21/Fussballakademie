@@ -194,15 +194,6 @@ h4 {
     padding: 10%;
 }
 
-
-/* 
-@media only screen and (min-width: 200px) {
-   #navBar{
-       position: fixed;
-       top: auto;
-   }
-}  */
-
 #navBar {
     background-color: #000000 !important;
     box-shadow: 2px 2px 3px #f8f8f8;
@@ -429,22 +420,6 @@ button.bg-dark:hover {
 
 /* Content Animation */
 
-
-/* #ContentFullPage{
-    transition: 0.8s; 
- }
- #ContentFullPage:hover{
-    transform: scale(1.05);
- } */
-
-
-/* .bestIconCard{
-   transition: 0.4s; 
-}
-.bestIconCard:hover{
-   transform: scale(1.1);
-} */
-
 .bestPictures {
     transition: 0.4s;
 }
@@ -457,15 +432,6 @@ button.bg-dark:hover {
 .bestPictures:hover {
     transform: scale(1.1);
 }
-
-
-/* #boxContent{
-    transition: 0.4s;  
-}
-#boxContent:hover{
-    transform: scale(1.1);
-    box-shadow: rgb(224, 217, 217) 0px 3px 7px 0px;
- } */
 
 .sectionImgBig {
     transition: 0.4s;
@@ -481,7 +447,6 @@ button.bg-dark:hover {
 
 #angebotKurse:hover {
     transform: scale(1.15);
-    /* box-shadow: 0px 7px 8px 7px white ; */
 }
 
 .uberPic {
