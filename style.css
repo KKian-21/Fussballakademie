@@ -417,8 +417,7 @@ button.bg-dark:hover {
 #fullPageContent,
 #kurseContent,
 .uberContent,
-.preiseContent,
-.logo {
+.preiseContent {
     animation: fadeIn 2s forwards;
 }
 
