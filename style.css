@@ -353,6 +353,9 @@ button.bg-dark:hover {
         top: 0px !important;
         left: 0px !important;
     }
+    .sectionImgBig {
+        padding: 0.5rem 14rem 3rem 14rem !important;
+    }
 }
 
 @media only screen and (min-width: 1920px) {
@@ -372,6 +375,9 @@ button.bg-dark:hover {
         width: 20em;
         top: 0px !important;
     }
+    .sectionImgBig {
+        padding: 0.5rem 16rem 3rem 16rem !important;
+    }
 }
 
 @media only screen and (min-width: 2220px) {
@@ -385,6 +391,9 @@ button.bg-dark:hover {
     .logofooter {
         top: -60px;
         left: -105px;
+    }
+    .sectionImgBig {
+        padding: 0.5rem 10rem 3rem 10rem !important;
     }
 }
 
