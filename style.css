@@ -217,6 +217,11 @@ h4 {
     position: sticky;
 }
 
+.preislistePic {
+    height: 100%;
+    width: 100%;
+}
+
 
 /* Impressum */
 
