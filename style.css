@@ -133,6 +133,7 @@ h4 {
 #heading {
     font-weight: 400;
     color: #75e7ba;
+    /* text-shadow: 3px 2px 0 #f7c524; */
 }
 
 #startButton {
