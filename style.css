@@ -235,6 +235,8 @@ h4 {
 }
 
 
+
+
 /* Bootstrap Nav Button Color Change */
 
 a.bg-dark:focus,
@@ -383,6 +385,14 @@ button.bg-dark:hover {
     }
     .sectionImgBig {
         padding: 0.5rem 16rem 3rem 16rem !important;
+    }
+    /* Kontakt */
+
+    .kontaktIcon{
+        height: 42px;
+        width: 42px;
+        margin-bottom: 1em !important;
+        margin-top: 1em !important;
     }
 }
 
