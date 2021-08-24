@@ -60,8 +60,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 .logo {
-    height: 0em;
-    width: 0em;
+    height: 7em;
+    width: 7em;
     position: absolute;
     left: -34px;
     top: -52px;
