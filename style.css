@@ -60,11 +60,14 @@ body::-webkit-scrollbar-thumb {
 }
 
 .logo {
-    height: 7em;
-    width: 7em;
+    height: 0em;
+    width: 0em;
     position: absolute;
     left: -34px;
     top: -52px;
+}
+.logosmall{
+    position: absolute;
 }
 
 .logofooter {
@@ -286,6 +289,11 @@ button.bg-dark:hover {
         height: 14em;
         width: 14em;
         top: 0px;
+    }
+    .logosmall{
+        position: absolute;
+        height: 0;
+        width: 0;
     }
     .logoUberKurse {
         top: -20px !important;
