@@ -221,7 +221,7 @@ h4 {
 }
 
 #footerPreise {
-    margin-top: 40rem;
+    margin-top: 0rem;
     top: 100%;
     position: sticky;
 }
@@ -326,7 +326,7 @@ button.bg-dark:hover {
         position: sticky;
     }
     #footerPreise {
-        /* margin-top: 0rem; */
+        margin-top: 5rem;
         top: 100%;
         position: sticky;
     }
@@ -380,6 +380,11 @@ button.bg-dark:hover {
     .sectionImgBig {
         padding: 0.5rem 14rem 3rem 14rem !important;
     }
+    #startButton{
+        height: 50px;
+        width: 180px;
+        font-weight: 600;
+    }
 }
 
 @media only screen and (min-width: 1920px) {
@@ -388,6 +393,7 @@ button.bg-dark:hover {
         position: sticky;
     }
     #footerPreise {
+        margin-top: 10rem;
         top: 100%;
         position: sticky;
     }
@@ -413,6 +419,8 @@ button.bg-dark:hover {
     .carousel{
         padding: 4em ;
     }
+  
+    
 }
 
 @media only screen and (min-width: 2220px) {
