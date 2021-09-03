@@ -133,11 +133,13 @@ body::-webkit-scrollbar-thumb {
 h2,
 h4 {
     color: #75e7ba;
+    /* font-family: 'Bebas Neue', cursive; */
 }
 
 #heading {
     font-weight: 400;
     color: #75e7ba;
+    /* font-family: 'Bebas Neue', cursive; */
     /* text-shadow: 3px 2px 0 #f7c524; */
 }
 
@@ -476,10 +478,10 @@ button.bg-dark:hover {
     transition: 0.4s;
 }
 
-#heading:hover {
+/* #heading:hover {
     transition: 0.8s;
     transform: scale(1.07);
-}
+} */
 
 .bestPictures:hover {
     transform: scale(1.1);
