@@ -26,6 +26,15 @@ body::-webkit-scrollbar-thumb {
     background: #75e7ba;
 }
 
+@font-face {
+    font-family: "Amsterdam Laviera";
+    src: url("/fonts/Amsterdam/Amsterdam Laviera.ttf");
+}
+@font-face {
+    font-family: "DEUX";
+    src: url("/fonts/Deux/DEUX.otf");
+}
+
 #intro {
     background: url(img/0,4.jpg) no-repeat center;
     -webkit-background-size: cover;
@@ -73,15 +82,15 @@ body::-webkit-scrollbar-thumb {
 } */
 
 .logofooter {
-    position: absolute;
+    position: relative;
     top: -140px;
-    left: 39px;
+    left: 70px;
 }
 
 .copyR {
     position: absolute;
-    top: -105px;
-    left: 160px;
+    top: -60px;
+    left: 145px;
 }
 
 .scrollDownIconBox {
@@ -102,7 +111,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 #fullPageContent {
-    top: 30%;
+    top: 23%;
     position: absolute;
 }
 
@@ -307,6 +316,7 @@ button.bg-dark:hover {
         left: -88px !important;
     }
     .logofooter {
+        position: absolute;
         top: -10px;
         left: -80px;
     }
@@ -323,6 +333,9 @@ button.bg-dark:hover {
 }
 
 @media only screen and (min-width: 1000px) {
+    #fullPageContent {
+        top: 30%;
+    }
     #footerUber {
         top: 100%;
         position: sticky;
@@ -421,8 +434,9 @@ button.bg-dark:hover {
     .carousel{
         padding: 4em ;
     }
-  
-    
+    .preislistePic {
+        padding: 3em;
+    }
 }
 
 @media only screen and (min-width: 2220px) {
