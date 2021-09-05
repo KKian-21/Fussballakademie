@@ -372,7 +372,6 @@ button.bg-dark:hover {
     #heading {
         font-size: 370%;
         text-shadow: 3px 2px 0 #f7c524;
-
     }
     p {
         font-size: larger;
@@ -420,6 +419,9 @@ button.bg-dark:hover {
 }
 
 @media only screen and (min-width: 1920px) {
+    #heading {
+        font-size: 400%;
+    }
     #footerUber {
         top: 100%;
         position: sticky;
