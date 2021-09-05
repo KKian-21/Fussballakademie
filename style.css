@@ -69,10 +69,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 .logo {
-    /* height: 7em;
-    width: 7em; */
-    height: 0;
-    width: 0;
+    height: 7em;
+    width: 7em;
     position: absolute;
     left: -34px;
     top: -52px;
@@ -142,14 +140,20 @@ body::-webkit-scrollbar-thumb {
 h2,
 h4 {
     color: #75e7ba;
+    font-family: 'Zen Dots';
     /* font-family: 'Bebas Neue', cursive; */
 }
 
 #heading {
     font-weight: 400;
     color: #75e7ba;
+    /* font-family: 'DEUX'; */
+    font-family: 'Zen Dots';
+    /* font-family: 'Zen Tokyo Zoo', cursive; */
+    /* font-family: 'Homemade Apple', cursive; */
+    /* font-family: 'Lobster', cursive; */
+    /* text-shadow: 2px 3px#f6d365; */
     /* font-family: 'Bebas Neue', cursive; */
-    /* text-shadow: 3px 2px 0 #f7c524; */
 }
 
 #startButton {
@@ -267,19 +271,19 @@ button.bg-dark:hover {
 
 @media only screen and (min-width: 300px) {
     #heading {
-        font-size: 250%;
+        font-size: 180%;
     }
 }
 
 @media only screen and (min-width: 500px) {
     #heading {
-        font-size: 320%;
+        font-size: 200%;
     }
 }
 
 @media only screen and (min-width: 767px) {
     #heading {
-        font-size: 400%;
+        font-size: 320%;
     }
     /* Darunter Transparenz möglich wenn Scroll Effekte möglich
     sonst kein passender Layer im Hintergrund der Navigation  */
@@ -336,6 +340,10 @@ button.bg-dark:hover {
     #fullPageContent {
         top: 30%;
     }
+    .logoUberKurse {
+        top: -40px !important;
+        left: -105px !important;
+    }
     #footerUber {
         top: 100%;
         position: sticky;
@@ -344,6 +352,11 @@ button.bg-dark:hover {
         margin-top: 5rem;
         top: 100%;
         position: sticky;
+    }
+    .logo {
+        height: 16em;
+        width: 16em;
+        left: -60px;
     }
     .logofooter {
         top: -25px;
@@ -357,7 +370,9 @@ button.bg-dark:hover {
 
 @media only screen and (min-width: 1200px) {
     #heading {
-        font-size: 520%;
+        font-size: 370%;
+        text-shadow: 3px 2px 0 #f7c524;
+
     }
     p {
         font-size: larger;
@@ -389,9 +404,11 @@ button.bg-dark:hover {
 
 @media only screen and (min-width: 1400px) {
     .logo {
-        top: 0px !important;
-        left: 0px !important;
-    }
+        height: 20em;
+        width: 20em;
+        top: -25px;
+    }    
+
     .sectionImgBig {
         padding: 0.5rem 14rem 3rem 14rem !important;
     }
@@ -416,8 +433,8 @@ button.bg-dark:hover {
         background-position: 55% 67%;
     }
     .logo {
-        height: 20em;
-        width: 20em;
+        height: 24em;
+        width: 24em;
         top: 0px !important;
     }
     .sectionImgBig {
