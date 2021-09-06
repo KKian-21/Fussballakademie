@@ -146,7 +146,7 @@ h4 {
 
 #heading {
     font-weight: 400;
-    color: #75e7ba;
+    color: #75e7b9bd;
     /* font-family: 'DEUX'; */
     /* font-family: 'Zen Dots'; */
     font-family: 'Russo One', sans-serif;
@@ -264,7 +264,10 @@ h4 {
     margin-left: 0rem;
 }
 
-
+/* Blog */
+#pictureBlog{
+    margin-top: 1rem;
+}
 
 
 
@@ -321,11 +324,15 @@ button.bg-dark:hover {
         width: 14em;
         top: 0px;
     }
-    /* .logosmall{
-        position: absolute;
-        height: 0;
-        width: 0;
-    } */
+    #footerUber {
+        top: 100%;
+        position: sticky;
+    }
+    #footerPreise {
+        margin-top: 5rem;
+        top: 100%;
+        position: sticky;
+    }
     .logoUberKurse {
         top: -20px !important;
         left: -88px !important;
@@ -345,6 +352,12 @@ button.bg-dark:hover {
     .newsText{
         margin-top: 2em;
     }
+    .blog{
+        margin-left: 3rem;
+    }
+    #pictureBlog{
+        margin-top: 6rem;
+    }
 }
 
 @media only screen and (min-width: 1000px) {
@@ -355,15 +368,7 @@ button.bg-dark:hover {
         top: -40px !important;
         left: -105px !important;
     }
-    #footerUber {
-        top: 100%;
-        position: sticky;
-    }
-    #footerPreise {
-        margin-top: 5rem;
-        top: 100%;
-        position: sticky;
-    }
+  
     .logo {
         height: 16em;
         width: 16em;
@@ -559,9 +564,9 @@ button.bg-dark:hover {
     transition: 0.4s;
 }
 
-#textKurs:hover {
+/* #textKurs:hover {
     transform: scale(1.1);
-}
+} */
 
 
 
