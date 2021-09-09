@@ -163,7 +163,6 @@ h4 {
     -moz-appearance: none;
 }
 
-
 #navSites {
     color: #f8f8f8;
     font-size: 100%;
@@ -442,6 +441,7 @@ button.bg-dark:hover {
         width: 180px;
         font-weight: 600;
     }
+ 
 }
 
 @media only screen and (min-width: 1920px) {
