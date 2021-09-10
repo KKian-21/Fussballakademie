@@ -164,7 +164,6 @@ h4 {
     -moz-appearance: none;
 }
 
-
 #navSites {
     color: #f8f8f8;
     font-size: 100%;
@@ -325,6 +324,9 @@ button.bg-dark:hover {
         width: 14em;
         top: 0px;
     }
+    .necPic {
+        margin-top: 10rem;
+    }
     #footerUber {
         top: 100%;
         position: sticky;
@@ -369,6 +371,10 @@ button.bg-dark:hover {
         top: -40px !important;
         left: -105px !important;
     }
+    .necPic {
+        margin-top: 0rem;
+    }
+  
   
     .logo {
         height: 16em;
@@ -398,6 +404,9 @@ button.bg-dark:hover {
     }
     .uberPic {
         margin-top: 1rem;
+    }
+    .hakanPic{
+        margin-top: -3rem;
     }
     .sectionImgBig {
         padding: 1.5rem 10rem 3rem 10rem !important;
@@ -433,6 +442,7 @@ button.bg-dark:hover {
         width: 180px;
         font-weight: 600;
     }
+ 
 }
 
 @media only screen and (min-width: 1920px) {
@@ -582,7 +592,7 @@ button.bg-dark:hover {
 
 /* Button Animation */
 
-#startButton:hover {
+.startButton:hover {
     background-color: #36bd90;
     color: white;
 }
