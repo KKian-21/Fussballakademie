@@ -650,3 +650,20 @@ p.red::-moz-selection {
 .mb-6 {
     margin-bottom: 6rem !important;
 }
+
+
+.mt-7 {
+    margin-top: 10rem !important;
+}
+
+.ml-7 {
+    margin-left: 10rem !important;
+}
+
+.mr-7 {
+    margin-right: 10rem !important;
+}
+
+.mb-7{
+    margin-bottom: 15rem !important;
+}
