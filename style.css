@@ -190,6 +190,16 @@ h4 {
     border-bottom: 1px solid white;
 }
 
+.instaDiv{
+    margin-top: -5.5rem;
+}
+.instalink{
+    color: black !important;
+    text-decoration: none;
+}
+.instaText{
+    text-decoration: none;
+}
 /* Kurse */
 
 #contentKurse {
@@ -293,6 +303,9 @@ button.bg-dark:hover {
     #heading {
         font-size: 220%;
     }
+    .instaDiv{
+        margin-top: -7.5rem;
+    }
 }
 
 @media only screen and (min-width: 767px) {
@@ -323,6 +336,9 @@ button.bg-dark:hover {
         height: 14em;
         width: 14em;
         top: 0px;
+    }
+    .instaDiv{
+        margin-top: 0.5rem;
     }
     .necPic {
         margin-top: 10rem;
@@ -527,8 +543,7 @@ button.bg-dark:hover {
 }
 
 .nav-link:hover {
-    text-shadow: 3px 2px 0 #e9bb23d2;
-    transition:  0.35s;
+
 }
 
 
@@ -573,6 +588,11 @@ button.bg-dark:hover {
 
 #textKurs {
     transition: 0.4s;
+}
+
+.instaIcon:hover{
+    background: linear-gradient(#545ecfc2, #e90721c2, #f1b761c2 );
+    border-radius: 10px;
 }
 
 /* #textKurs:hover {
