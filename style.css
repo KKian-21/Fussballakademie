@@ -411,7 +411,7 @@ button.bg-dark:hover {
     #heading {
         font-size: 420%;
         text-shadow: 3px 2px 0 #f7c524;
-    }
+    }   
     p {
         font-size: larger;
     }
@@ -447,7 +447,7 @@ button.bg-dark:hover {
     .logo {
         height: 20em;
         width: 20em;
-        top: -25px;
+        top: -65px;
     }    
 
     .sectionImgBig {
