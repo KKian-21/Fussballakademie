@@ -60,8 +60,9 @@ body::-webkit-scrollbar-thumb {
 }
 
 .nav-selected {
-    color: #75e7ba !important;
+    color: #75e7b9d2 !important;
 }
+
 
 .favicon {
     height: 3em;
@@ -189,6 +190,16 @@ h4 {
     border-bottom: 1px solid white;
 }
 
+.instaDiv{
+    margin-top: -5.5rem;
+}
+.instalink{
+    color: black !important;
+    text-decoration: none;
+}
+.instaText{
+    text-decoration: none;
+}
 /* Kurse */
 
 #contentKurse {
@@ -292,6 +303,9 @@ button.bg-dark:hover {
     #heading {
         font-size: 220%;
     }
+    .instaDiv{
+        margin-top: -7.5rem;
+    }
 }
 
 @media only screen and (min-width: 767px) {
@@ -322,6 +336,9 @@ button.bg-dark:hover {
         height: 14em;
         width: 14em;
         top: 0px;
+    }
+    .instaDiv{
+        margin-top: 0.5rem;
     }
     .necPic {
         margin-top: 10rem;
@@ -394,7 +411,7 @@ button.bg-dark:hover {
     #heading {
         font-size: 420%;
         text-shadow: 3px 2px 0 #f7c524;
-    }
+    }   
     p {
         font-size: larger;
     }
@@ -430,7 +447,7 @@ button.bg-dark:hover {
     .logo {
         height: 20em;
         width: 20em;
-        top: -25px;
+        top: -65px;
     }    
 
     .sectionImgBig {
@@ -526,8 +543,7 @@ button.bg-dark:hover {
 }
 
 .nav-link:hover {
-    text-decoration: underline;
-    padding-bottom: 2px;
+
 }
 
 
@@ -572,6 +588,11 @@ button.bg-dark:hover {
 
 #textKurs {
     transition: 0.4s;
+}
+
+.instaIcon:hover{
+    background: linear-gradient(#545ecfc2, #e90721c2, #f1b761c2 );
+    border-radius: 10px;
 }
 
 /* #textKurs:hover {
@@ -628,4 +649,21 @@ p.red::-moz-selection {
 
 .mb-6 {
     margin-bottom: 6rem !important;
+}
+
+
+.mt-7 {
+    margin-top: 10rem !important;
+}
+
+.ml-7 {
+    margin-left: 10rem !important;
+}
+
+.mr-7 {
+    margin-right: 10rem !important;
+}
+
+.mb-7{
+    margin-bottom: 15rem !important;
 }
