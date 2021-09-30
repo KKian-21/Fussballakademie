@@ -70,11 +70,11 @@ body::-webkit-scrollbar-thumb {
 }
 
 .logo {
-    height: 7em;
-    width: 7em;
+    height: 2em;
+    width: 2em;
     position: absolute;
-    left: -34px;
-    top: -52px;
+    left: 15px;
+    top: 2px;
 }
 /* .logosmall{
     position: absolute;
@@ -333,9 +333,9 @@ button.bg-dark:hover {
         left: 50%;
     }
     .logo {
-        height: 14em;
-        width: 14em;
-        top: 0px;
+        height: 5em;
+        width: 5em;
+        top: 90px;
     }
     .instaDiv{
         margin-top: 0.5rem;
@@ -353,8 +353,7 @@ button.bg-dark:hover {
         position: sticky;
     }
     .logoUberKurse {
-        top: -20px !important;
-        left: -88px !important;
+        left: 0px;
     }
     .logofooter {
         position: absolute;
@@ -380,22 +379,27 @@ button.bg-dark:hover {
 }
 
 @media only screen and (min-width: 1000px) {
+    #heading {
+        font-size: 420%;
+        text-shadow: 3px 2px 0 #f7c524;
+    }  
     #fullPageContent {
         top: 30%;
     }
+    .logo {
+        height: 5em;
+        width: 5em;
+    }
     .logoUberKurse {
-        top: -40px !important;
-        left: -105px !important;
+        top: 100px;
+        left: -20px;
     }
     .necPic {
         margin-top: 0rem;
     }
-  
-  
+
     .logo {
-        height: 16em;
-        width: 16em;
-        left: -100px;
+        left: 40px;
     }
     .logofooter {
         top: -25px;
@@ -408,10 +412,14 @@ button.bg-dark:hover {
 }
 
 @media only screen and (min-width: 1200px) {
-    #heading {
-        font-size: 420%;
-        text-shadow: 3px 2px 0 #f7c524;
-    }   
+    .logo {
+        height: 7em;
+        width: 7em;
+    }
+    .logoUberKurse {
+        left: -5px ;
+    }
+ 
     p {
         font-size: larger;
     }
@@ -443,12 +451,11 @@ button.bg-dark:hover {
     }
 }
 
-@media only screen and (min-width: 1400px) {
-    .logo {
-        height: 20em;
-        width: 20em;
-        top: -65px;
-    }    
+@media only screen and (min-width: 1400px) {   
+    .logoUberKurse {
+        left: 40px;
+        top: 90px;
+    }
 
     .sectionImgBig {
         padding: 0.5rem 14rem 3rem 14rem !important;
@@ -478,9 +485,13 @@ button.bg-dark:hover {
         background-position: 55% 67%;
     }
     .logo {
-        height: 24em;
-        width: 24em;
-        top: 0px !important;
+        height: 8em;
+        width: 8em;
+        left: 150px;
+    }
+    .logoUberKurse {
+        left: 150px;
+        top: 90px
     }
     .sectionImgBig {
         padding: 0.5rem 16rem 3rem 16rem !important;
@@ -515,6 +526,12 @@ button.bg-dark:hover {
     }
     .sectionImgBig {
         padding: 0.5rem 10rem 3rem 10rem !important;
+    }
+    .logo {
+        height: 10em;
+        width: 10em;
+        left: 200px;
+        top: 150px;
     }
 }
 
