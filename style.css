@@ -413,11 +413,14 @@ button.bg-dark:hover {
 
 @media only screen and (min-width: 1200px) {
     .logo {
-        height: 7em;
-        width: 7em;
+        height: 5em;
+        width: 5em;
     }
     .logoUberKurse {
         left: -5px ;
+    }
+    #heading{
+        margin-left: 1em;
     }
  
     p {
