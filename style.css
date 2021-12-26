@@ -341,6 +341,7 @@ button.bg-dark:hover {
     }
     .instaDiv{
         margin-top: 0.5rem;
+        margin-left: 10rem;
     }
     .necPic {
         margin-top: 10rem;
@@ -360,11 +361,11 @@ button.bg-dark:hover {
     .logofooter {
         position: absolute;
         top: -10px;
-        left: -80px;
+        left: 15px;
     }
     .copyR {
         top: 30px;
-        left: 55px;
+        left: 110px;
     }
     .contentKoIm {
         margin-left: 15rem;
@@ -404,12 +405,16 @@ button.bg-dark:hover {
         left: 40px;
     }
     .logofooter {
-        top: -25px;
-        left: -90px;
+        top: -15px;
+        left: 30px;
     }
     .copyR {
         top: 30px;
-        left: 80px;
+        left: 110px;
+    }
+    .instaDiv{
+        margin-top: 0.5rem;
+        margin-left: 7rem;
     }
 }
 
@@ -446,10 +451,10 @@ button.bg-dark:hover {
     .contentKursPic {
         padding: 2rem 5rem 0rem 5rem !important;
     }
-    .logofooter {
+    /* .logofooter {
         top: -53px;
         left: -90px;
-    }
+    } */
     .copyR {
         top: 30px;
         left: 107px;
