@@ -148,6 +148,7 @@ h4 {
 #heading {
     font-weight: 400;
     color: #75e7b9bd;
+    text-shadow: 3px 2px 0 #f7c524;
     /* font-family: 'DEUX'; */
     /* font-family: 'Zen Dots'; */
     font-family: 'Russo One', sans-serif;
@@ -381,7 +382,7 @@ button.bg-dark:hover {
 @media only screen and (min-width: 1000px) {
     #heading {
         font-size: 420%;
-        text-shadow: 3px 2px 0 #f7c524;
+
     }  
     #fullPageContent {
         top: 30%;
