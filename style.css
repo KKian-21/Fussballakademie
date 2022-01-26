@@ -140,8 +140,11 @@ body::-webkit-scrollbar-thumb {
     border-bottom: 1px solid black;
 }
 
-h2,
-h4 {
+h4{
+    color: #ffffff;
+    font-family: 'Zen Dots'; 
+}
+h2{
     color: #75e7ba;
     font-family: 'Zen Dots';
     /* font-family: 'Bebas Neue', cursive; */
@@ -225,6 +228,23 @@ h4 {
     text-align: center;
 }
 
+.marking{
+    background-color: #75e7b98c;
+    position: absolute;
+    height: 0.5em;
+    width: 8em;
+    left: 40%;
+    top: 8%;
+}
+
+.markingPreise{
+    background-color: #75e7b98c;
+    position: absolute;
+    height: 0.4em;
+    width: 6em;
+    left: 38%;
+    top: 5%;
+}
 
 /* Über Uns */
 
