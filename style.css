@@ -81,9 +81,11 @@ body::-webkit-scrollbar-thumb {
 } */
 
 .logofooter {
+    height: 5em;
+    width: 5em;
     position: relative;
-    top: -140px;
-    left: 70px;
+    top: -150px;
+    left: 115px;
 }
 
 .copyR {
@@ -252,6 +254,10 @@ h4 {
     margin-top: 12vh;
 }
 
+.standorteContent {
+    margin-top: 12vh;
+}
+
 #footerPreise {
     margin-top: 0rem;
     top: 100%;
@@ -261,6 +267,14 @@ h4 {
 .preislistePic {
     height: 100%;
     width: 100%;
+}
+
+.standortePic {
+    height: 50%;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -339,6 +353,7 @@ button.bg-dark:hover {
     }
     .instaDiv{
         margin-top: 0.5rem;
+        margin-left: 10rem;
     }
     .necPic {
         margin-top: 10rem;
@@ -358,11 +373,11 @@ button.bg-dark:hover {
     .logofooter {
         position: absolute;
         top: -10px;
-        left: -80px;
+        left: 15px;
     }
     .copyR {
         top: 30px;
-        left: 55px;
+        left: 110px;
     }
     .contentKoIm {
         margin-left: 15rem;
@@ -409,12 +424,16 @@ button.bg-dark:hover {
         left: 40px;
     }
     .logofooter {
-        top: -25px;
-        left: -90px;
+        top: -15px;
+        left: 30px;
     }
     .copyR {
         top: 30px;
-        left: 80px;
+        left: 110px;
+    }
+    .instaDiv{
+        margin-top: 0.5rem;
+        margin-left: 7rem;
     }
 }
 
@@ -451,10 +470,10 @@ button.bg-dark:hover {
     .contentKursPic {
         padding: 2rem 5rem 0rem 5rem !important;
     }
-    .logofooter {
+    /* .logofooter {
         top: -53px;
         left: -90px;
-    }
+    } */
     .copyR {
         top: 30px;
         left: 107px;
