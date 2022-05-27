@@ -36,7 +36,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 #intro {
-    background: url(img/1,1.jpg) no-repeat center;
+    background: url(img/1.jpg) no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -403,7 +403,7 @@ button.bg-dark:hover {
 @media only screen and (min-width: 1000px) {
     #heading {
         font-size: 320%;
-        text-shadow: 3px 2px 0 #f7c524;
+        text-shadow: 4px 3px 0 #33175ec4;
     }  
     #fullPageContent {
         top: 30%;
