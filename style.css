@@ -36,12 +36,12 @@ body::-webkit-scrollbar-thumb {
 }
 
 #intro {
-    background: url(img/0,4.jpg) no-repeat center;
+    background: url(img/1.jpg) no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-position: 58% 0%;
+    background-position: 64% 0%;
     /* opacity: 0.9; */
 }
 
@@ -149,14 +149,14 @@ h4 {
 
 #heading {
     font-weight: 400;
-    color: #75e7b9bd;
+    color: #75e7b9e7;
     /* font-family: 'DEUX'; */
     /* font-family: 'Zen Dots'; */
     font-family: 'Russo One', sans-serif;
     /* font-family: 'Zen Tokyo Zoo', cursive; */
     /* font-family: 'Homemade Apple', cursive; */
     /* font-family: 'Lobster', cursive; */
-    /* text-shadow: 2px 3px#f6d365; */
+    text-shadow: 3px 3px#0c0c09;
     /* font-family: 'Bebas Neue', cursive; */
 }
 
@@ -402,11 +402,21 @@ button.bg-dark:hover {
 
 @media only screen and (min-width: 1000px) {
     #heading {
-        font-size: 420%;
+        font-size: 320%;
         text-shadow: 3px 2px 0 #f7c524;
     }  
     #fullPageContent {
         top: 30%;
+        /* From https://css.glass */
+        background: rgba(255, 255, 255, 0.21);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(7.1px);
+        -webkit-backdrop-filter: blur(4px);
+        left:10em;
+        padding-left: 5em;
+        padding-bottom: -3em;
+        padding-right: 2em;
     }
     .logo {
         height: 5em;
@@ -446,7 +456,7 @@ button.bg-dark:hover {
         left: 30px !important;
     }
     #heading{
-        margin-left: 1em;
+        font-size: 400%;
     }
  
     p {
@@ -500,6 +510,7 @@ button.bg-dark:hover {
 @media only screen and (min-width: 1920px) {
     #heading {
         font-size: 450%;
+        /* margin-left: -1em; */
     }
     #footerUber {
         top: 100%;
