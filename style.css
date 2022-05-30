@@ -30,13 +30,14 @@ body::-webkit-scrollbar-thumb {
     font-family: "Amsterdam Laviera";
     src: url("/fonts/Amsterdam/Amsterdam Laviera.ttf");
 }
+
 @font-face {
     font-family: "DEUX";
     src: url("/fonts/Deux/DEUX.otf");
 }
 
 #intro {
-    background: url(img/1.jpg) no-repeat center;
+    background: url(img/1,1.jpg) no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -76,6 +77,7 @@ body::-webkit-scrollbar-thumb {
     left: 15px;
     top: 2px;
 }
+
 /* .logosmall{
     position: absolute;
 } */
@@ -101,8 +103,8 @@ body::-webkit-scrollbar-thumb {
     left: 45%;
     padding: 0.5rem;
     background: rgba(237, 250, 238, 0.07);
-    backdrop-filter: blur( 2.0px);
-    -webkit-backdrop-filter: blur( 2.0px);
+    backdrop-filter: blur(2.0px);
+    -webkit-backdrop-filter: blur(2.0px);
     border-radius: 10px;
 }
 
@@ -196,21 +198,25 @@ h4 {
 .contentBestPictures {
     overflow: hidden;
 }
-.line{
+
+.line {
     border-top: 1px solid white;
     border-bottom: 1px solid white;
 }
 
-.instaDiv{
+.instaDiv {
     margin-top: -5.5rem;
 }
-.instalink{
+
+.instalink {
     color: black !important;
     text-decoration: none;
 }
-.instaText{
+
+.instaText {
     text-decoration: none;
 }
+
 /* Kurse */
 
 #contentKurse {
@@ -245,6 +251,7 @@ h4 {
     background-color: #000000 !important;
     box-shadow: 2px 2px 3px #f8f8f8;
 }
+
 #uberButton {
     background-image: linear-gradient(120deg, #f6d365, #75e7ba);
     -webkit-appearance: none;
@@ -298,7 +305,7 @@ h4 {
 }
 
 /* Blog */
-#pictureBlog{
+#pictureBlog {
     margin-top: 1rem;
 }
 
@@ -313,7 +320,7 @@ a.bg-dark:focus,
 a.bg-dark:hover,
 button.bg-dark:focus,
 button.bg-dark:hover {
-    background-color: #000000!important;
+    background-color: #000000 !important;
 }
 
 @media only screen and (min-width: 300px) {
@@ -326,7 +333,8 @@ button.bg-dark:hover {
     #heading {
         font-size: 220%;
     }
-    .instaDiv{
+
+    .instaDiv {
         margin-top: -7.5rem;
     }
 }
@@ -335,6 +343,7 @@ button.bg-dark:hover {
     #heading {
         font-size: 350%;
     }
+
     /* Darunter Transparenz möglich wenn Scroll Effekte möglich
     sonst kein passender Layer im Hintergrund der Navigation  */
     #navBar {
@@ -342,58 +351,73 @@ button.bg-dark:hover {
         background-color: black !important;
         border-bottom: 0px #f8f8f8 solid !important;
     }
+
     #navbarCollapse {
         display: flex;
         flex-direction: row-reverse;
     }
+
     .bd-placeholder-img-lg {
         font-size: 3.5rem;
     }
+
     .uberPic {
         margin-top: 3rem;
     }
+
     .scrollDownIconBox {
         left: 50%;
     }
+
     .logo {
         height: 5em;
         width: 5em;
         top: 90px;
     }
-    .instaDiv{
+
+    .instaDiv {
         margin-top: 0.5rem;
         margin-left: 10rem;
     }
+
     .necPic {
         margin-top: 10rem;
     }
+
     #footerUber {
         top: 100%;
         position: sticky;
     }
+
     #footerPreise {
         margin-top: 5rem;
         top: 100%;
         position: sticky;
     }
+
     .logoUberKurse {
         left: 0px;
     }
+
     .logofooter {
         position: absolute;
         top: -10px;
         left: 15px;
     }
+
     .copyR {
         top: 30px;
         left: 110px;
     }
+
     .contentKoIm {
         margin-left: 15rem;
     }
-    .newsText{
+
+    .newsText {
         margin-top: 2em;
     }
+
     .rotate90 {
         -webkit-transform: rotate(90deg);
         -moz-transform: rotate(90deg);
@@ -401,10 +425,12 @@ button.bg-dark:hover {
         -ms-transform: rotate(90deg);
         transform: rotate(90deg);
     }
-    .blog{
+
+    .blog {
         margin-left: 3rem;
     }
-    #pictureBlog{
+
+    #pictureBlog {
         margin-top: 6rem;
     }
 }
@@ -423,16 +449,19 @@ button.bg-dark:hover {
     #fullPageContent {
         top: 30%;
         /* From https://css.glass */
-  
+
     }
+
     .logo {
         height: 5em;
         width: 5em;
     }
+
     .logoUberKurse {
         top: 100px;
         left: -20px !important;
     }
+
     .necPic {
         margin-top: 0rem;
     }
@@ -440,15 +469,18 @@ button.bg-dark:hover {
     .logo {
         left: 40px;
     }
+
     .logofooter {
         top: -15px;
         left: 30px;
     }
+
     .copyR {
         top: 30px;
         left: 110px;
     }
-    .instaDiv{
+
+    .instaDiv {
         margin-top: 0.5rem;
         margin-left: 7rem;
     }
@@ -456,37 +488,46 @@ button.bg-dark:hover {
 
 @media only screen and (min-width: 1200px) {
     .logo {
-        height: 5em;
-        width: 5em;
+        height: 7em;
+        width: 7em;
     }
+
     .logoUberKurse {
         left: 30px !important;
     }
-    #heading{
+
+    #heading {
         font-size: 400%;
     }
- 
+
     p {
         font-size: larger;
     }
+
     #slogan {
         font-size: xx-large;
     }
+
     .uberPic {
         margin-top: 1rem;
     }
-    .hakanPic{
+
+    .hakanPic {
         margin-top: -3rem;
     }
+
     .sectionImgBig {
         padding: 1.5rem 10rem 3rem 10rem !important;
     }
+
     .containerUberPic {
         padding: 2rem 5rem 0rem 5rem !important;
     }
+
     .contentKursPic {
         padding: 2rem 5rem 0rem 5rem !important;
     }
+
     /* .logofooter {
         top: -53px;
         left: -90px;
@@ -497,7 +538,7 @@ button.bg-dark:hover {
     }
 }
 
-@media only screen and (min-width: 1400px) {   
+@media only screen and (min-width: 1400px) {
     .logoUberKurse {
         left: 40px;
         top: 90px;
@@ -506,66 +547,89 @@ button.bg-dark:hover {
     .sectionImgBig {
         padding: 0.5rem 14rem 3rem 14rem !important;
     }
-    #startButton{
+
+    #startButton {
         height: 50px;
         width: 180px;
         font-weight: 600;
     }
- 
 }
 
-@media only screen and (min-width: 1920px) {
-    #fullPageContent{
+@media only screen and (min-width: 1600px) {
+    .logo {
+        height: 9em;
+        width: 9em;
+    }
+
+    #fullPageContent {
         background: rgba(255, 255, 255, 0.21);
         border-radius: 16px;
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
         backdrop-filter: blur(7.1px);
         -webkit-backdrop-filter: blur(4px);
-        left:10em;
+        left: 10em;
         padding-left: 5em;
         padding-bottom: -3em;
         padding-right: 2em;
         margin-left: 4em;
     }
+
+    #heading {
+        text-shadow: 6px 5px 0 #33175ec4;
+    }
+
+}
+
+@media only screen and (min-width: 1920px) {
+
     #heading {
         font-size: 450%;
         /* margin-left: -1em; */
     }
+
     #footerUber {
         top: 100%;
         position: sticky;
     }
+
     #footerPreise {
         margin-top: 10rem;
         top: 100%;
         position: sticky;
     }
+
     #intro {
         background-position: 55% 67%;
     }
+
     .logo {
-        height: 8em;
-        width: 8em;
-        left: 150px;
+        height: 10em;
+        width: 10em;
+        left: 50px;
     }
+
     .logoUberKurse {
         left: 150px !important;
         top: 90px
     }
+
     .sectionImgBig {
         padding: 0.5rem 16rem 3rem 16rem !important;
     }
+
     /* Kontakt */
 
-    .kontaktIcon{
+    .kontaktIcon {
         height: 42px;
         width: 42px;
         margin-bottom: 1em !important;
         margin-top: 1em !important;
     }
-    .carousel{
-        padding: 4em ;
+
+    .carousel {
+        padding: 4em;
     }
+
     .preislistePic {
         padding: 3em;
     }
@@ -576,25 +640,30 @@ button.bg-dark:hover {
         font-size: 570%;
         /* margin-left: -1em; */
     }
+
     .row {
         margin-top: 7% !important;
     }
+
     .containerUberPic {
         padding: 2rem 3rem 0rem 3rem !important;
         margin-left: 5rem;
     }
+
     .logofooter {
         top: -60px;
         left: -105px;
     }
+
     .sectionImgBig {
         padding: 0.5rem 10rem 3rem 10rem !important;
     }
+
     .logo {
-        height: 10em;
-        width: 10em;
-        left: 200px;
-        top: 150px;
+        height: 11em;
+        width: 11em;
+        left: 60px;
+        top: 100px;
     }
 }
 
@@ -609,6 +678,7 @@ button.bg-dark:hover {
         opacity: 0;
         transform: translateY(-4em);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -670,8 +740,8 @@ button.bg-dark:hover {
     transition: 0.4s;
 }
 
-.instaIcon:hover{
-    background: linear-gradient(#545ecfc2, #e90721c2, #f1b761c2 );
+.instaIcon:hover {
+    background: linear-gradient(#545ecfc2, #e90721c2, #f1b761c2);
     border-radius: 10px;
 }
 
@@ -736,6 +806,6 @@ button.bg-dark:hover {
     margin-right: 10rem !important;
 }
 
-.mb-7{
+.mb-7 {
     margin-bottom: 15rem !important;
 }
