@@ -160,6 +160,15 @@ h4 {
     /* font-family: 'Bebas Neue', cursive; */
 }
 
+.glass{
+    background: rgba(255, 255, 255, 0.307);
+    border-radius: 10px;
+    /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(4px); 
+    padding: 0 10px 0 10px;
+}
+
 #startButton {
     background-image: linear-gradient(120deg, #f6d465e0, #75e7b9da);
     -webkit-appearance: none;
@@ -405,6 +414,12 @@ button.bg-dark:hover {
         font-size: 320%;
         text-shadow: 4px 3px 0 #33175ec4;
     }  
+    .glass{
+        background: rgba(255, 255, 255, 0);
+        backdrop-filter: blur(0px);
+        -webkit-backdrop-filter: blur(0px); 
+    }
+
     #fullPageContent {
         top: 30%;
         /* From https://css.glass */
