@@ -160,6 +160,7 @@ h4 {
     /* font-family: 'Lobster', cursive; */
     text-shadow: 3px 3px#0c0c09;
     /* font-family: 'Bebas Neue', cursive; */
+
 }
 
 #startButton {
@@ -316,13 +317,13 @@ button.bg-dark:hover {
 
 @media only screen and (min-width: 300px) {
     #heading {
-        font-size: 210%;
+        font-size: 240%;
     }
 }
 
 @media only screen and (min-width: 500px) {
     #heading {
-        font-size: 220%;
+        font-size: 230%;
     }
 
     .instaDiv {
