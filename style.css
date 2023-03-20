@@ -163,12 +163,12 @@ h4 {
 
 }
 
-.glass{
+.glass {
     background: rgba(255, 255, 255, 0.307);
     border-radius: 10px;
     /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
     backdrop-filter: blur(1px);
-    -webkit-backdrop-filter: blur(4px); 
+    -webkit-backdrop-filter: blur(4px);
     padding: 0 10px 0 10px;
 }
 
@@ -440,11 +440,12 @@ button.bg-dark:hover {
     #heading {
         font-size: 320%;
         text-shadow: 4px 3px 0 #33175ec4;
-    }  
-    .glass{
+    }
+
+    .glass {
         background: rgba(255, 255, 255, 0);
         backdrop-filter: blur(0px);
-        -webkit-backdrop-filter: blur(0px); 
+        -webkit-backdrop-filter: blur(0px);
     }
 
     #fullPageContent {
@@ -803,6 +804,12 @@ button.bg-dark:hover {
     margin-bottom: 6rem !important;
 }
 
+.m-6 {
+    margin-top: 6rem !important;
+    margin-left: 6rem !important;
+    margin-right: 6rem !important;
+    margin-bottom: 6rem !important;
+}
 
 .mt-7 {
     margin-top: 10rem !important;
@@ -817,5 +824,19 @@ button.bg-dark:hover {
 }
 
 .mb-7 {
-    margin-bottom: 15rem !important;
+    margin-bottom: 10rem !important;
+}
+
+.m-6 {
+    margin-top: 10rem !important;
+    margin-left: 10rem !important;
+    margin-right: 10rem !important;
+    margin-bottom: 10rem !important;
+}
+
+.p-6 {
+    /* padding-top: 6rem !important; */
+    padding-left: 6rem !important;
+    padding-right: 6rem !important;
+    padding-bottom: 6rem !important;
 }
